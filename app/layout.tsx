@@ -30,7 +30,7 @@ export default function RootLayout({
         className={`${cormorantGaramond.variable} ${poppins.variable} bg-gradient-to-r from-blue-400 to-blue-200 min-h-screen flex flex-col`}
       >
         <header className="bg-gradient-to-r from-blue-400 to-blue-200 shadow-lg p-4 flex justify-between items-center">
-          <h1 className="text-2xl font-bold text-white">Patrick's First NEXTJS blog</h1>
+          <h1 className="text-2xl font-bold text-white">Patrick&apos;s First NEXTJS blog</h1> {/* Escaped apostrophe */}
           <nav>
             <ul className="flex space-x-4">
               <li><a href="#" className="text-black hover:text-blue-200 transition-colors">Home</a></li>
