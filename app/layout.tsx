@@ -33,7 +33,7 @@ export default function RootLayout({
           <h1 className="text-2xl font-bold text-white">Patrick&apos;s First NEXTJS blog</h1> {/* Escaped apostrophe */}
           <nav>
             <ul className="flex space-x-4">
-              <li><a href="http://localhost:3000/" className="text-black hover:text-blue-200 transition-colors">Home</a></li>
+              <li><a href="#" className="text-black hover:text-blue-200 transition-colors">Home</a></li>
               <li><a href="#" className="text-black hover:text-blue-200 transition-colors">About</a></li>
               <li><a href="#" className="text-black hover:text-blue-200 transition-colors">Contact</a></li>
             </ul>
